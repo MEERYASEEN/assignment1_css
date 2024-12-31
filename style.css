@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#head{
+    background-color: navy;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3rem;
+}
+
+#heading{
+    background-color: #CBC3E3;
+    height: 50px;
+    color: black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+
+.line {
+   background-color: lightgreen;
+   font-style: normal;
+   color: white;
+   height: 50px;
+   width: calc(100vw * 0.20);
+   /* width: 500px; */
+    transition: .2s all ease-in-out; 
+    /* for delay */
+    font-size: x-large;
+
+}
+.line:hover{
+    background-color: lightblue;
+    color: black;
+    
+}
+
+.table{
+    background-color: aquamarine;
+    color: black;
+    width: calc(100vw * 0.50);
+    height: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.size{
+    font-size: x-large;
+}
